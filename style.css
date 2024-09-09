@@ -1,0 +1,253 @@
+/*style sheet for landing page*/
+
+*{
+    box-sizing: border-box;
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.headerlogo,.tworightplaceholder{
+    color:#F9FAF8;
+}
+
+.one {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    height:50px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 100px;
+}
+
+.headerlinks, .headerlogo, .twoleft, .tworight{
+    flex-basis: 500px;
+}
+
+.headerlogo{
+    align-self:flex-start;
+    text-align:left;
+    font-weight: bolder;
+    height:25px;
+    font-size: 24px;
+    padding:5px;
+}
+
+.headerlinks{
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    height: 25px;
+    flex-shrink:0;
+    font-size 18px;
+}
+
+.two{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #1F2937;
+    padding-bottom:75px;
+}
+
+#signupbutton{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+    height; 10px;
+    width: 120px;
+    padding:10px;
+    margin-top:20px;
+}
+
+.tworightplaceholder{
+    text-align: center;
+}
+
+
+.headerlinks, .subtext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+
+li{
+    margin:10px;
+}
+
+.two{
+    display:flex;
+    padding-left:50px;
+    padding-right:50px;
+    justify-content: space-evenly;
+    align-content:center;
+}
+
+.twoleft{
+    display:flex;
+    flex-direction: column;
+    text-wrap:wrap;
+    padding-left:25px;
+
+}
+
+.tworight{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    width:300px;
+    margin-right:50px;
+}
+
+
+.maintitle{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.subtext{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.three{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:15px;
+    padding-top:30px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.randominfo{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900px;
+}
+
+.containertwo{
+    display:flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    margin-bottom:5px;
+    border-style:solid;
+    border-radius:10px;
+    border-width: 3px;
+    border-color:#3882F6;
+}
+
+.containertwo p{
+    width:200px;
+    height:50px;
+    text-align: center;
+    margin-bottom:50px;
+    margin-right:50px;
+    margin-left:50px;
+    color:#1f2937;
+}
+
+.four{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-bottom:50px;
+}
+
+#quote{
+    height: fit-content;
+    width:1000px;
+    padding-top:50px;
+    padding-left:100px;
+    padding-right:100px;
+    font-style: italic;
+    color:#1F2937;
+    font-size:36px;
+    font-weight: lighter;
+}
+
+#quotee{
+    width:1000px;
+    padding-left:100px;
+    padding-right:150px;
+    text-align:end;
+    font-weight: bolder;
+
+}
+
+.five{
+    margin:30px;
+}
+
+.fivecontainer{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:25px;
+    margin-bottom:25px;
+    display: flex;
+    justify-content: center;
+}
+
+.actionbox{
+    display:flex;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    justify-content: space-around;
+    width: 1300px;
+    padding: 25px;
+
+}
+
+.actionleft{
+    margin-right:50px;
+}
+
+#signup{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    color:#F9FAF8;
+    width: 120px;
+    padding:10px;
+}
+
+#calltoaction{
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
